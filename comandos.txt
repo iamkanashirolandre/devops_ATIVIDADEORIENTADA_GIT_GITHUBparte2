@@ -1,0 +1,89 @@
+André Luiz H. Kanashiro - Osorio Noite
+=======================================
+PASSOS DOS EXERCICIOS DE 1 A 5
+=======================================
+$ git init
+$ touch index.html
+
+OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
+
+====================
+$ git status
+$ git add README.md
+$ git remote add origin https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUB.git
+$ git add .
+$ git commit -m "Primeiro commit"
+$ touch README.md
+$ git branch -M main
+$ git push --set-upstream origin main
+$ git add .
+$ git commit -m "Alterando README.md"
+$ git push
+$ touch .gitignore
+
+OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
+
+===============================
+$ mkdir imagens
+$ git status
+$ git add .
+$ git commit -m "Criada pasta imagem e colocado o garfield como o gato"
+$ git push
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   comandos.txt
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        minhas_senhas_secretas.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+=== REFAZENDO O COMANDO COM O .gitignore CONFIGURADO COM o minhas_senhas_secretas.txt ADICIONADO 
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   comandos.txt
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+===============================
+$ git add .
+
+=======================================
+PASSOS DOS EXERCICIOS DE 6 E 7
+=======================================
+
+$ git clone https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2.git
+$ cd  devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2/
+$ touch Readme.md
+
+OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
+
+$ echo "# devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2" >> README.md
+$ echo "Escrevendo qualquer coisa para modificar esse arquivo" >> README.md
+$ git status
+$ git add Readme.md
+$ git branch versao01
+$ git checkout versao01
+$ git status
+$ git add Readme.md
+$ git commit  -m "Add e alterado arquivo Readme.md de novo"
+$ git push --set-upstream origin versao01
+
+
+ 
