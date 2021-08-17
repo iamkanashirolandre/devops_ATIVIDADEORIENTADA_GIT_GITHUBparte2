@@ -86,4 +86,6 @@ $ git commit  -m "Add e alterado arquivo Readme.md de novo"
 $ git push --set-upstream origin versao01
 
 
- 
+Repositorios gitgub: 
+- https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUB/
+- https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2/ 
